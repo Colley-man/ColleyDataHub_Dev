@@ -1,0 +1,253 @@
+/* Basic styling for the data bundle platform */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #34495e;
+}
+
+.bundle {
+    background-color: white;
+    border: 1px solid #2c3e50;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(48, 43, 120, 0.1);
+    transition: box-shadow 0.3s ease; 
+    cursor: pointer;
+}
+.bundle:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+.bundle h3 {
+    color: #2c3e50;
+    align-items: center;
+    text-align: center;
+}
+
+.buy-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #2ecc71;
+}
+
+#cart {
+    margin-bottom: 40%;
+    margin-top: 0%;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+#checkout-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#checkout-button:hover {
+    background-color: #2980b9;
+}
+#bundles{
+        width: 100%;         
+        height: 100vh;       
+        display: flex;
+        justify-content: center; 
+}
+.intro{
+    text-align: center;
+    margin-top: 20px;
+}
+nav {
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+/* footer,p{   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
+/* Footer sagement */
+/* .footer-container{
+    background-color: #000205;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+.footer-section{
+    
+    color: white;
+    padding: 50px ;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+footer , quick-links, a{
+    color: white;
+    text-decoration: none;
+    text-rendering: auto;
+} */
+.intro{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #34495e;
+}
+.brand-logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.checkout-section{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.take-note{
+    text-align: center;
+    margin-top: 20px;
+}
+.take-note h4{
+    color: #2c3e50;
+    /* margin-top: 20px; */
+    padding-top: 30px;
+}
+
+.phone-number{
+   text-align: center; 
+   align-items: center;
+   margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+    color: #3498db;
+    
+}
+/* #quick-links a{
+    text-decoration: none;
+} */
+quick-links a:hover{
+    color: #34495e;
+}
+
+
+
+
+
